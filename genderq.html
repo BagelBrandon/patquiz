@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- metadata -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- page title -->
+  <title>We'll Guess Your Gender</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/odin-0.10.4.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header>
+    <div class="container-xl">
+      <nav class="navbar navbar-slideout-sm">
+        <a class="navbar-brand" href="#">PatFeed</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+
+        <div class="navbar-menu">
+          <button class="menu-dismiss" aria-label="Dismiss navigation">&times;</button>
+          <ul>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Quizzes</a></li>
+            <li><a href="#">Tasty</a></li>
+            <li><a href="#">More</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container-xl">
+    <main>
+
+      <div class="row">
+        <div class="col-lg-9">
+
+          <!-- Quiz begins here -->
+          <div class="meta">
+            <h1 class="quiz-title">We'll Guess Your Gender Based on Stuff You Like!</h1>
+            <span class="tagline">You thought you were a male? WRONG.</span>
+            <span class="date">Posted on May 4th, 2017 at 2:32 p.m.</span>
+          </div>
+
+          <div class="byline">
+            <img class="circle left" src="tom.jpg">
+            <span class="author-name">Brandon H</span>
+            <span class="author-title">Supreme Meme Daddy</span>
+          </div>
+
+          <div class="clear"></div>
+
+          <form class="quiz">
+            <!-- Begin question #1-->
+            <div class="row">
+              <div class="col-xs-12">
+                <img src="img/clothes.jpg">
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/polo.jpg">
+                    <input class="answer" type="radio" name="clothes" value="male"> Polo Ralph Lauren
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/pink.jpg">
+                    <input class="answer" type="radio" name="clothes" value="female"> Pink
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/holli.jpg">
+                    <input class="answer" type="radio" name="clothes" value="transf"> Hollister
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/dc.jpg">
+                    <input class="answer" type="radio" name="clothes" value="heli"> DC
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/supreme.jpg">
+                    <input class="answer" type="radio" name="clothes" value="transm"> Supreme
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/chanel.jpg">
+                    <input class="answer" type="radio" name="clothes" value="drag"> Chanel
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- End question #1-->
+
+            <!-- Begin question #2-->
+            <div class="row">
+              <div class="col-xs-12">
+                <img src="img/music.jpg">
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/tay.jpg">
+                    <input class="answer" type="radio" name="music" value="female"> Pop
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/billy.jpg">
+                    <input class="answer" type="radio" name="music" value="transm"> Country
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/drake.jpg">
+                    <input class="answer" type="radio" name="music" value="drag"> R&B
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/meme.jpg">
+                    <input class="answer" type="radio" name="music" value="heli"> I prefer to look at dank memes
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/kdot.jpg">
+                    <input class="answer" type="radio" name="music" value="male"> Rap / Hip-Hop
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/nickel.jpg">
+                    <input class="answer" type="radio" name="music" value="transf"> Rock
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- End question #2-->
+
+            <!-- Start Question 3-->
+
+            <div class="row">
+              <div class="col-xs-12">
+                <img src="img/sports.jpg">
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/dontlike.jpg">
+                    <input class="answer" type="radio" name="sport" value="female"> I don't really like sports
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/foot.jpg">
+                    <input class="answer" type="radio" name="sport" value="transm"> Football (American)
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/lebron.jpg">
+                    <input class="answer" type="radio" name="sport" value="male"> Basketball
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/tennis.jpg">
+                    <input class="answer" type="radio" name="sport" value="transf"> Tennis
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/cross.jpg">
+                    <input class="answer" type="radio" name="sport" value="drag"> Lacrosse
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/old.jpg">
+                    <input class="answer" type="radio" name="sport" value="heli"> Shuffle-Board
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!--EndQ3-->
+
+            <!--Startq4-->
+            <div class="row">
+              <div class="col-xs-12">
+                <img src="img/hobbies.jpg">
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/clown.jpg">
+                    <input class="answer" type="radio" name="hobby" value="drag"> Doing My Makeup, duh!
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/shop.jpg">
+                    <input class="answer" type="radio" name="hobby" value="female"> Shopping
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/game.jpg">
+                    <input class="answer" type="radio" name="hobby" value="male"> Playing Sports or Video Games
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/memez.jpg">
+                    <input class="answer" type="radio" name="hobby" value="heli"> Looking at Memes, or Buying New Pairs of Heely's.
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/sand.jpg">
+                    <input class="answer" type="radio" name="hobby" value="transm"> Browsing Tumblr
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/emo.jpg">
+                    <input class="answer" type="radio" name="hobby" value="transf"> Buying New Beanies
+                  </label>
+                </div>
+              </div>
+            </div>
+<!--End4-->
+<!--start5-->
+
+            <div class="row">
+              <div class="col-xs-12">
+                <img src="img/boi.jpg">
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/ew.jpg">
+                    <input class="answer" type="radio" name="tv" value="transm"> The Fosters
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/zoey.jpg">
+                    <input class="answer" type="radio" name="tv" value="heli"> Zoey 101, Ya Dingus
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/bach.jpg">
+                    <input class="answer" type="radio" name="tv" value="transf"> The Bachelor
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/horror.jpg">
+                    <input class="answer" type="radio" name="tv" value="female"> American Horror Story
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/bird.jpg">
+                    <input class="answer" type="radio" name="tv" value="drag"> Love And HipHop
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/arrow.jpg">
+                    <input class="answer" type="radio" name="tv" value="male"> The Arrow
+                  </label>
+                </div>
+              </div>
+            </div>
+<!--endQ5-->
+<!--startQ6-->
+
+
+
+            <div class="row">
+              <div class="col-xs-12">
+                <img src="img/paula.jpg">
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/yacht.png">
+                    <input class="answer" type="radio" name="food" value="transm"> Corndogs
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/salad.jpg">
+                    <input class="answer" type="radio" name="food" value="drag"> Salads
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/wing.jpg">
+                    <input class="answer" type="radio" name="food" value="transf"> Hot Wings
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/shovel.jpg">
+                    <input class="answer" type="radio" name="food" value="female"> Starbucks Coffee
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/burger.jpg">
+                    <input class="answer" type="radio" name="food" value="male"> Burger
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-6">
+                <div class="choice">
+                  <label>
+                    <img src="img/cheet.jpg">
+                    <input class="answer" type="radio" name="food" value="heli"> Flamin Hot Cheetos, B
+                  </label>
+                </div>
+              </div>
+            </div>
+
+
+
+problem            <input class="button-primary" type="button" onclick="checkIt()" value="Get your results">
+          </form>
+
+          <div id="result"></div>
+          <!-- End of quiz -->
+
+        </div>
+
+        <!-- Begin sidebar -->
+        <div class="col-lg-3">
+          <div class="news hide-md-down">
+            <h3>PatFeed News</h3>
+
+            <p><a href="#">Donald Trump found naked and afraid hidding under his desk at the oval office. When asked why he was hiding he responded with "I don't wanna be president anymore". Mike Pence has said that every man does it when he's stressed and we should give Trump time. </a></p>
+
+            <p><a href="#">North Korea, has officially taken over all of the country of China. The US is currently working out negotiations with China although Kim Jong Un has replied to peace negotiations with "No".</a></p>
+
+            <p><a href="#">Tupac is not dead! Famous rapper Tupac Shakur, thought to be dead has been at his "vacation home" in Cuba with his good friend Matty B!</a></p>
+          </div>
+
+          <h3>Now Trending</h3>
+
+          <div class="row">
+            <div class="quiz-link">
+              <img src="https://dummyimage.com/400x250/aaa/fff">
+              <h4>Quiz title goes here</h4>
+            </div>
+
+            <div class="quiz-link">
+              <img src="https://dummyimage.com/400x250/aaa/fff">
+              <h4>Quiz title goes here</h4>
+            </div>
+
+            <div class="quiz-link">
+              <img src="https://dummyimage.com/400x250/aaa/fff">
+              <h4>Quiz title goes here</h4>
+            </div>
+
+            <div class="quiz-link">
+              <img src="https://dummyimage.com/400x250/aaa/fff">
+              <h4>Quiz title goes here</h4>
+            </div>
+          </div>
+        </div>
+        <!-- End sidebar -->
+
+      </div>
+    </main>
+
+    <footer>
+      <h3>More Buzz</h3>
+
+      <div class="row">
+        <!-- Begin clickbait headlines -->
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/x.jpg">
+          <h4>xxxtentacion Takes a White Girl to StarBucks, What Happened Next Will Shock You!</h4>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/cheetoh.jpg">
+          <h4>This is the Cheetohs Mascot Now, Feel Old Yet?</h4>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/draked.jpg">
+          <h4>Drake, made an amazing recovery that can only be described as a miracle!</h4>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/sprite.jpg">
+          <h4>Steve From Blues Clues Found Drinking a New Limited Edition Purple Sprite Flavour!</h4>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/durant.jpg">
+          <h4>Kevin Durant Is Actually a Cupcake? Found Out More!</h4>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <img src="img/lol.jpg">
+          <h4>Two Twins Finally Reunite!</h4>
+        </div>
+      <!-- End headlines-->
+
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- include any javascript below this line -->
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  <script src="js/odin-0.7.1.js"></script>
+  <script src="js/checkgender.js"></script>
+
+</body>
+</html>
